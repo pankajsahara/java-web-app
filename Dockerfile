@@ -1,7 +1,7 @@
 FROM adoptopenjdk/openjdk11:alpine-slim as build
 WORKDIR /workspace/app
 
-COPY mvnw . yahoo
+COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
 COPY src src
